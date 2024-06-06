@@ -1,0 +1,50 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800px;
+    color: #181818;
+}
+
+.text-primary {
+    color: tomato;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+}
+
+.btn-primary {
+    background-color: rgb(206, 72, 38);
+    font-weight: 700px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    padding: 10px 30px;
+}
