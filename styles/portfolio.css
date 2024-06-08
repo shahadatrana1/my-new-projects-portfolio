@@ -11,6 +11,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -47,4 +48,18 @@ nav a {
     border-radius: 3px;
     border: 0px;
     padding: 10px 30px;
+}
+
+.header {
+    background-color: #fff8f3;
+}
+
+.banner {
+    padding: 15px 30px 15px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 500px;
 }
