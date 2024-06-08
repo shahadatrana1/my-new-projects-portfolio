@@ -29,9 +29,10 @@ nav>ul {
     align-items: center;
 }
 
+
 nav li {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 120px;
     align-items: center;
 }
 
@@ -55,11 +56,59 @@ nav a {
 }
 
 .banner {
-    padding: 15px 30px 15px 150px;
+    padding: 15px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile-picture {
     width: 500px;
+    padding-left: 150px;
+}
+
+.header {
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+
+.content-description {
+    margin-top: 0px;
+    padding-bottom: 15px;
+}
+
+/* main section styles */
+
+/* about section styles */
+
+.about {
+    margin: 130px;
+    text-align: center;
+    padding: 300px;
+    margin-top: 0px;
+    padding-top: 80px;
+}
+
+.section-title {
+    font-weight: 700px;
+    font-size: 35px;
 }
