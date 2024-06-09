@@ -98,6 +98,11 @@ nav a {
 
 /* main section styles */
 
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* about section styles */
 
 .about {
@@ -106,9 +111,25 @@ nav a {
     padding: 300px;
     margin-top: 0px;
     padding-top: 80px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
 }
 
 .section-title {
     font-weight: 700px;
     font-size: 35px;
+}
+
+.second-section-description {
+    padding: 0px 70px;
+}
+
+/* section footer */
+
+.skills-container {
+    display: flex;
+}
+
+.skill {
+    padding: 15px 30px;
 }
